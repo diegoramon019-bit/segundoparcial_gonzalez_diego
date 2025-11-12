@@ -5,7 +5,7 @@ export default function ProfileScreen() {
     <View style={styles.container}>
       {/*foto de perfil*/}
       <Image
-        source={require('@/assets/images/perfil.jpg')} // 👉 cambia esta ruta a tu imagen
+        source={require('@/assets/images/perfil.jpg')} 
         style={styles.profileImage}
       />
 
